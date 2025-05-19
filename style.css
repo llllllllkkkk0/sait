@@ -1,0 +1,71 @@
+body{
+	background-image:url(https://media.istockphoto.com/id/171151211/uk/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D1%82%D0%B0%D1%80%D1%96-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B2-%D0%B1%D1%96%D0%B1%D0%BB%D1%96%D0%BE%D1%82%D0%B5%D1%86%D1%96.jpg?s=612x612&w=is&k=20&c=EOayGq2JdtAWzKYRRzrlAYF78L2K26BM5z3wsKprkVU=);
+	background-position: top center;
+
+    background-size:100% 100%;    
+
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-origin: padding-box;
+    background-clip: content-box;
+	color: firebrick;
+}
+header, footer{
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	background: papayawhip;
+	line-height: 70px;
+	float: left;
+}
+header{
+	border-bottom: 4px solid goldenrod ;
+	margin-bottom: 50px;
+}
+.nav{
+	list-style: none;
+	display: block;
+	width: 70%;
+	margin-left: 10%;
+	float: left;
+	text-align: center;
+}
+.nav li{
+	display: inline;
+	background: papayawhip;
+	border: 1px solid gray;
+	padding: 0 20px;
+	margin-right: 5px;
+	border-radius: 5px;
+
+}
+.nav li:hover{
+	color: black;
+	background: darksalmon;
+	border-radius: 20px 3%;
+	cursor: pointer;
+}
+main{
+	width:40% ;
+	margin-left: 10%;
+	background: darksalmon;
+	padding: 20px 2.5%;
+	float: left;
+	color: black;
+
+}
+aside{
+	width:20% ;
+	margin-left: 10%;
+	background: darksalmon;
+	padding: 20px 2.5%;
+	float: left;
+	color: black;
+}
+
+
+
+footer{
+	border-top: 4px solid goldenrod;
+	margin-top: 50px;
+}
